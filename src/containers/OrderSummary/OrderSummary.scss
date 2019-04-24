@@ -1,0 +1,38 @@
+.summaryHeader {
+    height: 50px;
+    background-color: green;
+    color: white;
+    font-family: Roboto;
+    text-align: center;
+    font-size: 23px;
+    line-height: 50px;
+}
+.minSummaryHeader {
+    height: 35px;
+    background-color: grey;
+    color: white;
+    font-family: Roboto;
+    text-align: center;
+    font-size: 16px;
+    line-height: 35px;
+}
+.summaryBody{
+    height: calc(100vh - 131px);
+}
+
+.summaryFooter{
+    display: flex;
+    justify-content: space-between;
+}
+.buttonDone {
+    font-family: Roboto;
+    text-decoration: none;
+    background-color:#0096d6;
+    color: white;
+    padding: 2px 6px 2px 6px;
+    font-size: 21px;
+    width: 100%;
+    text-align: center;
+    line-height: 43px;
+    height: 43px;
+  }

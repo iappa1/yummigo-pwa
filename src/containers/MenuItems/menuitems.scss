@@ -1,0 +1,48 @@
+.outlet-page {
+    .MenuHeader {
+        height: 70px;
+        position: static;
+        background-color:#0096d6;
+        color: white;
+        font-family: Roboto;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 60px;
+
+
+    }
+        .MenuList{
+            height: calc(100vh - 307px);
+        }
+
+        .MenuFooter{
+            display: flex;
+            justify-content: space-between;
+        }
+
+    .buttonBack {
+        font-family: Roboto;
+        text-decoration: none;
+        background-color: #0096d6;
+        color: white;
+        padding: 2px 6px 2px 6px;
+        font-size:21px;
+        width: 50%;
+        text-align: center;
+        line-height: 60px;
+        height: 60px;
+     }
+      .buttonOrder {
+        font-family: Roboto;
+        text-decoration: none;
+        background-color: #0096d6;
+        color: white;
+        padding: 2px 6px 2px 6px;
+        text-align: center;
+        line-height: 60px;
+        font-size:21px;
+        width: 50%;
+        height: 60px;
+      }
+    
+}
