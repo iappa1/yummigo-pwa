@@ -10,6 +10,8 @@ import './login.scss';
 class Login extends Component {
   constructor(props) {
     super(props);
+    
+    
 
     this.loadUserInfo = this.loadUserInfo.bind(this);
     this.state = {
@@ -61,4 +63,4 @@ const matchDispatchToProps = (dispatch) => {
   }
 };
 
-export default connect(mapStateToProps, matchDispatchToProps)(withRouter(Login));
+export  default connect(mapStateToProps, matchDispatchToProps)(withRouter(Login));
